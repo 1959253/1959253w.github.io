@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/index.css" type="text/css">
+        <title>おすすめゲームアンケート</title>
+    </head>
+
+    <body>
+        <div>
+            <h1>おすすめゲームアンケート</h1>
+            <input id="clearButton" type="button" value="全クリア">
+            <ul>
+                <li class="name">
+                    <label for="name">ユーザー名</label>
+                    <input id="formName" type="text" size="25" maxlength="20" placeholder="氏名をここに入力してください。">
+                </li>
+
+                <li class="post">
+                    <label for="post">ゲームソフト・選考理由</label>
+                    <textarea id="formText" cols="50" rows="2" maxlength="100" placeholder="おすすめのゲームソフト、選考理由を入力してください。"></textarea>
+                    <input id="formButton" type="button" value="投稿する">
+                </li>
+            </ul>
+        </div>
+        <div id="list">
+            <h3>右クリック→検証からApplication中にあるlocalStorageより閲覧可能です。</h3>
+
+            <h3>ご協力ありがとうございました！！</h3>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <script src="js/index.js"></script>
+    </body>
+
+</html>

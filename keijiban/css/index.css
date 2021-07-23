@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+    height: 500px;
+    background-image: url("../jpg/b125.jpg");
+    background-repeat: repeat;
+}
+
+ul li {
+    list-style: none;
+}
+
+label {
+    margin-right: 30px;
+    width:200px;
+    color: rgb(17, 151, 17);
+    float: left;
+}
+    
+.post{
+    position: relative;
+}
+    
+#formButton {
+    position: absolute;
+    background-color: rgb(32, 240, 32);
+    border: 1px solid darkgreen;
+}
+    
+#list{
+    bottom: 50%
+    
+}
